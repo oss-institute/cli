@@ -1,2 +1,4 @@
 #! /usr/bin/env node
-require("../dist/index.js");
+const path = require("path");
+
+require(path.resolve(__dirname, "..", "./dist/index.js"));
