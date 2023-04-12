@@ -5,7 +5,7 @@
     "strictNullChecks": true,
     "alwaysStrict": true,
     "noUnusedLocals": true,
-    "target": "ES2015",
+    "target": "ESNext",
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
