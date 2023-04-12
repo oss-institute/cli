@@ -1,0 +1,17 @@
+{
+  "name": "@catchupdays/cli",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "catchupdays": "./bin/index.js"
+  },
+  "author": "gmarcuk@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

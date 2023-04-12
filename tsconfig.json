@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "pretty": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": false,
+    "rootDir": "./"
+  },
+  "exclude": ["node_modules"]
+}
