@@ -2,6 +2,7 @@
   "name": "@catchupdays/cli",
   "version": "1.0.0",
   "description": "",
+  "main": "./bin/index.js",
   "scripts": {
     "start": "node ./bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
