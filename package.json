@@ -1,16 +1,16 @@
 {
   "name": "@catchupdays/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "./dist/index.js",
+  "main": "./bin/index.js",
   "scripts": {
-    "start": "node ./bin/index.js",
+    "start": "node bin/index-dev.js",
     "prepare": "npm run build",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "catchupdays": "./dist/index.js"
+    "catchupdays": "bin/index.js"
   },
   "author": "gmarcuk@gmail.com",
   "license": "MIT",
