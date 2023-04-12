@@ -1,25 +1,27 @@
 {
   "name": "@catchupdays/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "./bin/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "start": "node ./bin/index.js",
+    "prepare": "npm run build",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "catchupdays": "./bin/index.js"
+    "catchupdays": "./dist/index.js"
   },
   "author": "gmarcuk@gmail.com",
   "license": "MIT",
   "dependencies": {
     "@clack/prompts": "^0.6.3",
     "@octokit/core": "^4.2.0",
-    "commander": "^10.0.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.4"
+    "commander": "^10.0.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.7"
+    "ts-node": "^10.9.1",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.4"
   }
 }

@@ -13,9 +13,10 @@
     "experimentalDecorators": true,
     "skipLibCheck": true,
     "module": "commonjs",
-    "declaration": true,
+    "declaration": false,
     "sourceMap": false,
-    "rootDir": "./"
+    "rootDir": "./",
+    "outDir": "dist"
   },
   "exclude": ["node_modules"]
 }
