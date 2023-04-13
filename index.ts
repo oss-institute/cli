@@ -123,7 +123,7 @@ program.command("collect").action(async () => {
   Hello there! Let's get started with collecting open-source dependencies in your organization.
   To query your GitHub organization, we'll need a GitHub token that can access this information in your organization.
   
-  If you don't have one yet, you can get it at https://github.com/settings/tokens. 
+  If you don't have one yet, you can get it at https://github.com/settings/tokens . 
   Make sure to create classic token, and select 'repo' access for the token for things to work correctly.
   
   We only use the token to read 'package.json' files across repositories, and the code is fully executed on this machine only! 
