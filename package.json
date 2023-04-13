@@ -1,7 +1,7 @@
 {
   "name": "@catchupdays/cli",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "Handy tool for collecting open-source dependency usage in all your organization repositories.",
   "main": "./bin/index.js",
   "scripts": {
     "start": "node bin/index-dev.js",
