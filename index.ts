@@ -192,7 +192,7 @@ program.command("collect").action(async () => {
     Object.entries(sortedDepsBuffer).forEach(([dep, usage]) => {
       content += `${dep},${usage}\n`;
     });
-    fs.writeFile(path.resolve(__dirname, "deps.csv"), content, (err) => {
+    fs.writeFile(path.resolve(process.cwd(), "deps.csv"), content, (err) => {
       if (err) {
         log.error(err.message);
       }
