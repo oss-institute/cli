@@ -164,6 +164,7 @@ program.command("collect").action(async () => {
     const ignoreString = await text({
       message: `Are there any internal company dependencies we should ignore in the list. This are usually private packages in company scope. If not, leave the string empty.`,
       placeholder: `@${ghOrgName}`,
+      initialValue:`@${ghOrgName}`
     });
     const ignoreStringParsed = checkForEarlyExit(ignoreString);
 
