@@ -1,4 +1,4 @@
-# Catchup Days CLI
+# Catchup Days CL1
 
 Handy tool for collecting open-source dependency usage in all your organization repositories. 
 
